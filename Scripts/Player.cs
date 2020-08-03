@@ -11,7 +11,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
-        Cursor.visible = false;
     }
 
     // Update is called once per frame
